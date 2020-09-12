@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package co.edu.unicauca.modelo;
+
+import java.util.Date;
+
+/**
+ *
+ * @author Juan
+ */
+public class ViajeIndividual extends Viaje {
+
+    public ViajeIndividual(String origen, String destino, int costo, Date fechaIda, Date fechaLlegada) {
+        super(origen,destino,costo,fechaIda,fechaLlegada);
+    }
+ // Constructor
+ @Override
+ public String descripcion() {
+ return "Disfruta tu viaje individual";
+ }
+//No se sobreescribe cualquierMetodo2()
+}
